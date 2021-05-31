@@ -1,0 +1,197 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Up-English</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/settingResponsive.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="logo">
+                <img src="/img/logo.png" alt="logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">BELAJAR</a></li>
+                <li><a href="#">TRANSLATE</a></li>
+                <li><a href="#">DAFTAR</a></li>
+                <li><a href="#">HARGA</a></li>
+                <li><a href="/login.html" class="btn-join">MASUK</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </header>
+        <div class="content col-md-6 offset-md-3 text-center">
+            <h1>UP-ENGLISH LEARNING</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nam odit nihil perspiciatis vero vitae
+                cupiditate ducimus recusandae in dolorem sequi facilis aspernatur enim ad, eos ea sit possimus rem.</p>
+        </div>
+    </div>
+    <section class="fitur" id="fitur">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="img/materi.png">
+                    <h2>Materi</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/video.png">
+                    <h2>Video</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/quiz.png">
+                    <h2>Quizz</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#132026" fill-opacity="1"
+            d="M0,160L48,144C96,128,192,96,288,74.7C384,53,480,43,576,69.3C672,96,768,160,864,160C960,160,1056,96,1152,90.7C1248,85,1344,139,1392,165.3L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
+
+    <section id="translate" class="translate">
+        <div class="translate-1">
+            <h1 class="title">Translate</h1>
+            <br>
+            <label for="bahasa">
+                <select name="bahasa" id="bahasa" class="bahasa-1" required>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Inggris">Inggris</option>
+                </select>
+            </label>
+            <label for="bahasa">
+                <select name="bahasa" id="bahasa" class="bahasa-2" required>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Inggris">Inggris</option>
+                </select>
+            </label>
+            <label for="comment" id="comment-label">
+                <textarea name="comment" id="comment" class="comment-1" placeholder="masukkan teks"></textarea>
+            </label>
+            <label for="comment" id="comment-label">
+                <textarea name="comment" id="comment" class="comment-2" placeholder=""></textarea>
+            </label>
+        </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#132026" fill-opacity="1"
+            d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+    </svg>
+
+    <section class="form">
+        <form id="survey-form">
+            <div class="header">
+                <h1 id="title">Daftarkan diri Anda segera !</h1>
+                <p id="description">Nikmati gratis Up-English 1 bulan</p>
+            </div>
+
+            <label for="name" id="name-label">Name
+                <input type="text" id="name" name="name" placeholder="masukkan nama name" required>
+            </label>
+
+            <label for="email" id="email-label">email
+                <input type="email" id="email" name="email" placeholder="masukkan email" required>
+            </label>
+
+            <label for="password" id="password-label">Password
+                <input type="password" id="password" name="email" placeholder="masukkan password" required>
+            </label>
+
+            <label for="password" id="password-label"> Konfirmasi ulang password
+                <input type="password" id="password" name="email" placeholder="masukkan ulang password" required>
+            </label>
+
+            <label for="number" id="number-label">Nomor telepon
+                <input type="number" id="number" name="number" placeholder=" masukkan nomer telepon">
+            </label>
+
+            <label for="dropdown" id="dropdown-label">
+                Pilih Metode Pembayaran
+                <select name="role" id="dropdown" required>
+                    <option value="bank BRI">Bank BRI</option>
+                    <option value="bank BCA">Bank BCA</option>
+                    <option value="bank Mandiri">Bank Mandiri</option>
+                    <option value="bank BNI">Bank BNI</option>
+                </select>
+            </label>
+
+            <label for="checkbox" id="checkbox-label">
+                <input type="checkbox" id="checkbox" name="radio">saya menyetujui persyaratan yang telah ditetapkan dan
+                data yang saya isikan sesuai dengan data diri
+            </label>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </section>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#132026" fill-opacity="1"
+            d="M0,288L48,282.7C96,277,192,267,288,240C384,213,480,171,576,176C672,181,768,235,864,213.3C960,192,1056,96,1152,85.3C1248,75,1344,149,1392,186.7L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
+
+    <section class="price">
+        <div class="top">
+            <h1>Pilihan Harga</h1>
+            <div class="toggle-btn">
+                <span>Setiap tahun</span>
+                <label class="switch">
+                    <input type="checkbox" id="checbox" onclick="check()" ; />
+                    <span class="slider round"></span>
+                </label>
+                <span>Setiap bulan</span>
+            </div>
+        </div>
+
+        <div class="package-container">
+
+            <div class="packages">
+                <h1>Basic</h1>
+                <h2 class="text1">Free</h2>
+                <h2 class="text2">Free</h2>
+                <ul class="list">
+                    <li class="first"> Bebas translate</li>
+                    <li>Materi terbatas</li>
+                    <li>Video terbatas</li>
+                    <li>Qoal terbatas</li>
+                </ul>
+                <a href="#" class="button button1">Coba Gratis</a>
+            </div>
+
+            <div class="packages">
+                <h1>Professional</h1>
+                <h2 class="text1">Rp.30.000</h2>
+                <h2 class="text2">Rp.300.000</h2>
+                <ul class="list">
+                    <li class="first">Bebas Translate</li>
+                    <li>Seluruh akses Materi</li>
+                    <li>Seluruh akses Video</li>
+                    <li>Seluruh akses Quiz</li>
+                </ul>
+                <a href="#" class="button button2">Mulai Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#132026" fill-opacity="1"
+            d="M0,288L48,288C96,288,192,288,288,277.3C384,267,480,245,576,245.3C672,245,768,267,864,277.3C960,288,1056,288,1152,277.3C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+    </svg>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
